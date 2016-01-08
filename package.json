@@ -2,9 +2,16 @@
   "name": "hipchatter",
   "description": "Wrapper for the HipChat API (v2)",
   "version": "0.2.0",
-  "author": "Charlton Roberts <charltonroberts@gmail.com (http://charlton.io)",
+  "author": {
+    "name": "Charlton Roberts",
+    "url": "http://charlton.io"
+  },
   "contributors": [
-    "Macklin Underdown <macklinu@gmail.com> (http://mackli.nu)"
+    {
+      "name": "Macklin Underdown",
+      "email": "macklinu@gmail.com",
+      "url": "http://mackli.nu"
+    }
   ],
   "keywords": [
     "hipchat",
@@ -21,7 +28,7 @@
   },
   "main": "hipchatter.js",
   "dependencies": {
-    "needle": "~0.6.3",
+    "needle": "0.9.2",
     "async": "~0.2.9"
   },
   "engines": {
